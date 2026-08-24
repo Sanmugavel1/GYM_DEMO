@@ -565,7 +565,7 @@ body.cursor-active .cursor-ring{ opacity:1; }
 .footer-col{ display:flex; flex-direction:column; gap:12px; }
 .footer-col a, .footer-col span{ color:var(--ink-mute); font-size:.86rem; transition:color .3s; }
 .footer-col a:hover{ color:var(--gold-light); }
-.footer-bottom{ border-top:1px solid var(--surface-line); padding:22px 0; }
+.footer-bottom{ border-top:1px solid var(--surface-line); padding:22px 0 92px; }
 .footer-bottom-inner{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; font-size:.76rem; color:var(--ink-mute); }
 .footer-flag{ font-style:italic; }
 

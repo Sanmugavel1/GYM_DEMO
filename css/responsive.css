@@ -9,6 +9,8 @@
   .nav-links{ display:none; }
   .hamburger{ display:flex; }
 
+  .mobile-menu{ justify-content:flex-start; overflow-y:auto; padding:110px 24px 40px; -webkit-overflow-scrolling:touch; }
+
   .about-grid{ grid-template-columns:1fr; gap:90px; }
   .about-media{ max-width:480px; margin:0 auto; }
 
@@ -37,11 +39,22 @@
   .hero-stats-grid{ grid-template-columns:repeat(2,1fr); }
   .hero-cta{ flex-direction:column; align-items:flex-start; }
 
-  .tabs{ max-width:100%; overflow-x:auto; justify-content:flex-start; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+  .tabs{
+    max-width:100%; width:100%; overflow-x:auto; flex-wrap:nowrap; justify-content:flex-start;
+    -webkit-overflow-scrolling:touch; scrollbar-width:none;
+  }
   .tabs::-webkit-scrollbar{ display:none; }
   .tab-btn{ flex-shrink:0; }
 
+  .billing-toggle{ max-width:100%; overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+  .billing-toggle::-webkit-scrollbar{ display:none; }
+  .billing-btn{ flex-shrink:0; }
+
   .gallery-grid{ grid-template-columns:repeat(2,1fr); grid-auto-rows:160px; }
+
+  .mobile-menu{ gap:22px; }
+  .mobile-menu-links{ gap:16px; }
+  .mobile-menu-links a{ font-size:1.55rem; }
 
   .contact-cards{ grid-template-columns:1fr; }
 
@@ -61,6 +74,11 @@
 
   .logo-text{ font-size:1.05rem; }
   .logo-mark{ width:34px; height:34px; font-size:1rem; }
+  .navbar-actions{ gap:12px; }
+  .navbar-actions .btn-sm{ padding:10px 18px; font-size:.78rem; }
+
+  .billing-btn{ padding:10px 16px; font-size:.76rem; gap:5px; }
+  .save-chip{ font-size:.58rem; padding:2px 6px; }
 
   .hero-title{ font-size:clamp(2.3rem, 10vw, 3.2rem); }
   .hero-desc{ font-size:.96rem; }
