@@ -1,0 +1,55 @@
+{
+  "_readme": "NOVA Unisex Gym — Webora client-acquisition sales demo. Every field below is a PLACEHOLDER. Attempts to source real details from the client's Instagram (@team.nova.__) and a Google Maps share link both failed: Instagram's profile page has no bio/contact data reachable without login, and the Maps short link resolves into a JS-rendered Google Search/knowledge-panel page that could not be scraped for address/phone/hours. Before this goes anywhere near the client, replace every value below (and the matching spots in index.html) with confirmed facts, and swap the stock photography for the gym's real photos/logo.",
+
+  "brandName": "NOVA Unisex Gym",
+  "tagline": "Train Different. Train Nova.",
+  "instagram": {
+    "handle": "@team.nova.__",
+    "url": "https://www.instagram.com/team.nova.__"
+  },
+
+  "contact": {
+    "status": "PLACEHOLDER — not verified",
+    "address": "Add real address / locality here",
+    "phone": "+91 00000 00000",
+    "whatsapp": "+91 00000 00000",
+    "email": "hello@novaunisexgym.example",
+    "mapEmbed": "Not included — no verified coordinates. Add a real Google Maps embed once the address is confirmed."
+  },
+
+  "hours": {
+    "status": "PLACEHOLDER — not verified",
+    "monFri": "6:00 AM – 10:00 PM",
+    "sat": "6:00 AM – 9:00 PM",
+    "sun": "7:00 AM – 1:00 PM"
+  },
+
+  "programs": [
+    { "id": "strength", "name": "Strength Training", "blurb": "Free weights, machines and progressive-overload coaching for serious muscle and power gains." },
+    { "id": "cardio", "name": "Cardio & HIIT", "blurb": "High-intensity interval circuits and endurance work built to torch fat and build engine capacity." },
+    { "id": "group", "name": "Group Classes", "blurb": "High-energy, coach-led group sessions that make consistency fun and social." },
+    { "id": "personal", "name": "Personal Training", "blurb": "One-on-one coaching with a certified trainer, programmed entirely around your goals." },
+    { "id": "yoga", "name": "Yoga & Mobility", "blurb": "Breathwork, flexibility and recovery sessions to keep the body balanced and injury-free." },
+    { "id": "boxing", "name": "Boxing & Combat", "blurb": "Bag work, pad rounds and combat conditioning for a full-body, stress-busting workout." }
+  ],
+
+  "pricing": {
+    "status": "PLACEHOLDER — illustrative figures only, not the gym's real rates. Confirm real membership pricing with the client before use.",
+    "currency": "INR",
+    "plans": [
+      { "id": "basic", "name": "Basic", "monthly": 1499, "quarterly": 3999, "annual": 13999 },
+      { "id": "premium", "name": "Premium", "monthly": 2499, "quarterly": 6499, "annual": 22999, "highlighted": true, "badge": "Most Popular" },
+      { "id": "elite", "name": "Elite", "monthly": 3999, "quarterly": 10499, "annual": 37999 }
+    ]
+  },
+
+  "trainers": [
+    { "name": "Add real trainer name", "role": "Strength & Conditioning Coach", "image": "assets/images/trainers/trainer-male-1.jpg" },
+    { "name": "Add real trainer name", "role": "Personal Training Lead", "image": "assets/images/trainers/trainer-female-1.jpg" },
+    { "name": "Add real trainer name", "role": "Cardio & Combat Coach", "image": "assets/images/trainers/trainer-male-2.jpg" }
+  ],
+
+  "imagery": {
+    "note": "All photography is free-licensed Pexels stock (not the gym's own photos) — same approach used on the Slim N Trim and Be Fit Gym demos, since the gym's actual Instagram/Facebook photos cannot be scraped for rights reasons. Swap for real gym photography before production."
+  }
+}
